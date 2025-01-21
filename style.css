@@ -1,0 +1,43 @@
+.cabecera {
+    display: flex;
+    background: white url(img/cute-unicorn-pictures-78i2ev859t6vystn.jpg) repeat ;
+    background-size: 100px 100px;
+}
+
+.cabeceratitulo {
+    width: 500px;
+    font-size: 50px;
+   margin-left: 680px;
+   text-shadow: black 2px 2px 2px;
+}
+
+body {
+background-color: bisque;
+}
+
+.container {
+    margin:0 auto;
+    width: 1000px;
+}
+
+.aleatorias {
+    padding-top: 100px;
+}
+
+#excuse {
+    font-size: 80px;
+    
+}
+
+#nuevaExcusa {
+    background-color: rgba(250, 195, 216, 0.3);
+    font-size: 30px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+#nuevaExcusa:hover {
+    cursor:pointer;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    transition: ease 0.3s all;
+}
